@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-  int **X;
+  int **X; // For 2-D.     For 1-D, use *X.
   int row, col;
   cout << "Enter the dimensions of the array. That is row and column.";
   cin >> row >> col;
